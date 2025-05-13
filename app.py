@@ -112,10 +112,6 @@ fig.update_layout(
 fig.update_traces(texttemplate='%{text:.1f}%', textposition='outside')
 
 st.plotly_chart(fig, use_container_width=True)
-
-# 6. Footer
-st.markdown("---")
-st.caption("© 2025 LeafMedic • Dept. of AI & DS • MSRIT")
 # --- End of app.py ---
 # Note: Ensure all utility functions and classes are defined in their respective files.
 # This code is a Streamlit application for diagnosing plant leaf diseases using a pre-trained deep learning model.  
