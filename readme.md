@@ -38,6 +38,8 @@ Here is a quick demo of the application in action:
 - Deployment: Localhost / Streamlit Cloud  
 
 ---
+```bash
+# your tree structure here
 
 ## 📁 Project Structure
 
