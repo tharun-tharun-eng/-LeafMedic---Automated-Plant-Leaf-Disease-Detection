@@ -142,7 +142,6 @@ scikit-learn>=1.4.2
 ## ✍️ Authors
 
 * Srinidhi N S
-* Dept. of AI & DS, MSRIT, Bengaluru
 
 ---
 
