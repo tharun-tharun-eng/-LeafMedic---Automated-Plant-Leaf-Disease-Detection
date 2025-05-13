@@ -1,0 +1,9 @@
+tensorflow==2.15.0
+numpy
+Pillow
+opencv-python
+streamlit
+matplotlib
+pandas
+plotly
+keras
