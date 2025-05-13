@@ -39,8 +39,6 @@ Here is a quick demo of the application in action:
 
 ---
 ```bash
-# your tree structure here
-
 ## 📁 Project Structure
 
 plant_leaf_disease_app/
@@ -58,7 +56,7 @@ plant_leaf_disease_app/
 ├── train_model.py         # Model training script
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 📦 Installation & Setup
