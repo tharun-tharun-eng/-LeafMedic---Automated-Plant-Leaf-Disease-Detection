@@ -1,0 +1,27 @@
+# .gitignore
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore model files and large binaries
+*.h5
+*.keras
+*.ckpt
+*.pkl
+*.tflite
+
+# Ignore cached and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore training history
+*.png
+model/
