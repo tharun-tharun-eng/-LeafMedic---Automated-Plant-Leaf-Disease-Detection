@@ -1,6 +1,6 @@
-# 🌿 DeepLeaf - Automated Plant Leaf Disease Detection
+# 🌿 LeafMedic - Automated Plant Leaf Disease Detection
 
-DeepLeaf is a Streamlit web application that allows users to detect plant leaf diseases from uploaded images using deep learning. It enhances input images, runs predictions with a trained CNN model, and generates a detailed disease diagnosis report with visual charts.
+LeafMedic is a Streamlit web application that allows users to detect plant leaf diseases from uploaded images using deep learning. It enhances input images, runs predictions with a trained CNN model, and generates a detailed disease diagnosis report with visual charts.
 
 > 🎓 Academic Project: "Automated Plant Leaf Disease Detection through Image Preprocessing and Deep Learning"  
 > 🏫 Subject: Image Processing using Python  
@@ -12,7 +12,7 @@ DeepLeaf is a Streamlit web application that allows users to detect plant leaf d
 
 Here is a quick demo of the application in action:
 
-![DeepLeaf App Demo](assets/demo.gif)
+![LeafMedic App Demo](assets/demo.gif)
 
 ---
 
@@ -150,4 +150,4 @@ scikit-learn>=1.4.2
 
 MIT License — for academic and educational use.
 
-# -DeepLeaf---Automated-Plant-Leaf-Disease-Detection
+# -LeafMedic---Automated-Plant-Leaf-Disease-Detection

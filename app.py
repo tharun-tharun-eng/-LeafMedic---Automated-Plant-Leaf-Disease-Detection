@@ -14,7 +14,7 @@ from utils.report import generate_disease_report
 
 # --- Page Configuration & Styling ---
 st.set_page_config(
-    page_title="DeepLeaf 🌿",
+    page_title="LeafMedic 🌿",
     page_icon="🍃",
     layout="wide"
 )
@@ -37,12 +37,9 @@ st.markdown("""
 # --- Sidebar ---
 with st.sidebar:
     st.image("https://cdn-icons-png.flaticon.com/512/2909/2909763.png", width=80)
-    st.title("DeepLeaf 🍃")
+    st.title("LeafMedic 🍃")
     st.markdown("Automated Plant Leaf Disease Diagnosis")
-    st.markdown("---")
-    st.write("Subject: Image Processing with Python")
-    st.write("Built with ❤️ in Streamlit")
-    st.markdown("---")
+
 
 # --- Main Interface ---
 st.title("🌱 Plant Leaf Analyzer")
@@ -79,12 +76,10 @@ label, confidence, all_probs = predict_leaf_disease(orig)
 read_label = label.replace("___", " – ").replace("_", " ")
 report_text = generate_disease_report(label, confidence)
 
-col1, col2 = st.columns([1, 2])
-with col1:
-    st.metric("🔮 Prediction", read_label, f"{confidence*100:.1f}%")
-with col2:
-    st.text_area("📄 Diagnosis Report", report_text, height=250)
-    st.download_button("⬇️ Download Report", report_text, "disease_report.txt", "text/plain")
+# Display prediction and report one above the other
+st.metric("🔮 Prediction", read_label, f"{confidence*100:.1f}%")
+st.text_area("📄 Diagnosis Report", report_text, height=250)
+st.download_button("⬇️ Download Report", report_text, "disease_report.txt", "text/plain")
 
 # 5. Confidence Explorer (Plotly Chart)
 st.markdown("## 📊 Confidence Explorer")
@@ -120,7 +115,7 @@ st.plotly_chart(fig, use_container_width=True)
 
 # 6. Footer
 st.markdown("---")
-st.caption("© 2025 DeepLeaf • Dept. of AI & DS • MSRIT")
+st.caption("© 2025 LeafMedic • Dept. of AI & DS • MSRIT")
 # --- End of app.py ---
 # Note: Ensure all utility functions and classes are defined in their respective files.
 # This code is a Streamlit application for diagnosing plant leaf diseases using a pre-trained deep learning model.  
