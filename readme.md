@@ -38,9 +38,9 @@ Here is a quick demo of the application in action:
 - Deployment: Localhost / Streamlit Cloud  
 
 ---
-```bash
-## 📁 Project Structure
 
+## 📁 Project Structure
+```bash
 plant_leaf_disease_app/
 │
 ├── model/
