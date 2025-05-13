@@ -40,7 +40,7 @@ Here is a quick demo of the application in action:
 ---
 
 ## 📁 Project Structure
-
+```bash
 plant_leaf_disease_app/
 │
 ├── model/
@@ -56,7 +56,7 @@ plant_leaf_disease_app/
 ├── train_model.py         # Model training script
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 📦 Installation & Setup
@@ -142,7 +142,6 @@ scikit-learn>=1.4.2
 ## ✍️ Authors
 
 * Srinidhi N S
-* Dept. of AI & DS, MSRIT, Bengaluru
 
 ---
 
