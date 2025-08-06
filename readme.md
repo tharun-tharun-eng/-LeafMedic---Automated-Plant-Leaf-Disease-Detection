@@ -142,6 +142,7 @@ scikit-learn>=1.4.2
 ## ✍️ Authors
 
 * Srinidhi N S
+* Tharun Kumar B S
 
 ---
 
